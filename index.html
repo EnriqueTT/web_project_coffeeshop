@@ -55,7 +55,7 @@
         />
 
         <div class="header__footer">
-          <div >
+          <div>
             <p class="header__paragraph">Horario:</p>
             <p class="header__paragraph">
               Lunes a Viernes (de 10:00h a 19:00h)
@@ -74,10 +74,10 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
-          <h2 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
-          </h2>
+          </p>
           <div class="recipes__videos">
             <div class="recipes__video-item">
               <iframe
@@ -107,7 +107,36 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="#reservation"></section>
+        <section class="reservation" id="#reservation">
+          <h2>Reserva una mesa</h2>
+          <form>
+            <fieldset>
+              <label for="">Nombre *</label>
+              <input type="text" placeholder="Nombre" required />
+
+              <label for="">Número de comensales *</label>
+              <input
+                type="number"
+                min="1"
+                max="8"
+                step="1"
+                placeholder="1-8"
+                required
+              />
+
+              <label for="">Fecha y hora *</label>
+              <input type="text" placeholder="dd/mm/aaaa" required />
+
+              <label for="">Tu correo electrónico *</label>
+              <input type="email" placeholder="email@email.com" required />
+            </fieldset>
+            <fieldset>
+              <button type="submit">Reservar una mesa</button>
+              <input type="checkbox" />
+              <label for="">Acepto los términos de uso</label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

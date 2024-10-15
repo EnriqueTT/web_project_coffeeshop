@@ -106,17 +106,15 @@
   line-height: 20px;
   color: #838383;
 }
-.content {
+
+.recipes {
+  color: white;
   background-color: #0a2850;
-  color: #ffffff;
+  padding: 100px 80px 215px 80px;
   background-image: url("../images/background_recipes.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.recipes {
-  padding: 100px 80px 215px 80px;
 }
 
 .recipes__title {
@@ -157,4 +155,13 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
