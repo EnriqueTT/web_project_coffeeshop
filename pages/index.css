@@ -179,9 +179,12 @@
   line-height: 52px;
 }
 
-.reservation__form {
-  max-width: 385px;
+.reservation__form-style {
   width: 100%;
+}
+
+.reservation__form-style {
+  max-width: 385px;
   margin: auto;
 }
 .form__fieldset {
