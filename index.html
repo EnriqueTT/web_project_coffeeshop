@@ -111,19 +111,23 @@
           <h2 class="reservation__title">Reserva una mesa</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label label-style">Nombre *</label>
+              <label for="form-name" class="form__label label-style"
+                >Nombre *</label
+              >
               <input
                 type="text"
+                id="form-name"
                 class="form__input inputs-styles"
                 placeholder="Nombre"
                 required
               />
 
-              <label for="" class="form__label label-style"
+              <label for="form-eaters" class="form__label label-style"
                 >Número de comensales *</label
               >
               <input
                 type="number"
+                id="form-eaters"
                 min="1"
                 max="8"
                 step="1"
@@ -132,21 +136,23 @@
                 required
               />
 
-              <label for="" class="form__label label-style"
+              <label for="form-date" class="form__label label-style"
                 >Fecha y hora *</label
               >
               <input
                 type="text"
+                id="form-date"
                 placeholder="dd/mm/aaaa"
                 class="form__input inputs-styles"
                 required
               />
 
-              <label for="" class="form__label label-style"
+              <label for="form-email" class="form__label label-style"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
+                id="form-email"
                 class="form__input inputs-styles"
                 placeholder="email@email.com"
                 required
@@ -157,7 +163,7 @@
                 Reservar una mesa
               </button>
 
-              <label for="" class="form__label label__button_handler"
+              <label class="form__label label__button_handler"
                 ><input type="checkbox" class="form__checkbox" required />Acepto
                 los términos de uso</label
               >
