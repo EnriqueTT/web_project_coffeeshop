@@ -170,7 +170,8 @@
 }
 
 .reservation__title {
-  margin-bottom: 80px;
+  margin: 0;
+  padding-bottom: 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -250,7 +251,7 @@
   height: 20px;
 }
 
-.form__label-button_handler {
+.form__label_button-handler {
   display: flex;
   align-items: center;
   justify-content: center;
