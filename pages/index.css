@@ -166,11 +166,10 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .reservation__title {
-  display: inline;
-  margin: auto;
   margin-bottom: 80px;
   font-family: Inter;
   font-style: normal;
@@ -251,7 +250,7 @@
   height: 20px;
 }
 
-.label__button_handler {
+.form__label-button_handler {
   display: flex;
   align-items: center;
   justify-content: center;
