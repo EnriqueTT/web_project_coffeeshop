@@ -180,11 +180,11 @@
 }
 
 .reservation__form-style {
+  max-width: 385px;
   width: 100%;
 }
 
 .reservation__form-style {
-  max-width: 385px;
   margin: auto;
 }
 .form__fieldset {
