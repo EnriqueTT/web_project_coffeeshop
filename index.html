@@ -7,7 +7,6 @@
     <meta name="description" content="Cafetería especializada" />
     <meta name="keywords" content="cafe, cafeteria, pan" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +33,7 @@
               <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="footer">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -111,18 +110,22 @@
           <h2 class="reservation__title">Reserva una mesa</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="form-name" class="form__label label-style"
+              <label
+                for="form-name"
+                class="form__label form__label_style_margin"
                 >Nombre *</label
               >
               <input
                 type="text"
                 id="form-name"
-                class="form__input inputs-styles"
+                class="form__input form__input_style_shape"
                 placeholder="Nombre"
                 required
               />
 
-              <label for="form-eaters" class="form__label label-style"
+              <label
+                for="form-eaters"
+                class="form__label form__label_style_margin"
                 >Número de comensales *</label
               >
               <input
@@ -131,35 +134,42 @@
                 min="1"
                 max="8"
                 step="1"
-                class="form__input inputs-styles"
+                class="form__input form__input_style_shape"
                 placeholder="1-8"
                 required
               />
 
-              <label for="form-date" class="form__label label-style"
+              <label
+                for="form-date"
+                class="form__label form__label_style_margin"
                 >Fecha y hora *</label
               >
               <input
                 type="text"
                 id="form-date"
                 placeholder="dd/mm/aaaa"
-                class="form__input inputs-styles"
+                class="form__input form__input_style_shape"
                 required
               />
 
-              <label for="form-email" class="form__label label-style"
+              <label
+                for="form-email"
+                class="form__label form__label_style_margin"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
                 id="form-email"
-                class="form__input inputs-styles"
+                class="form__input form__input_style_shape"
                 placeholder="email@email.com"
                 required
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <button type="submit" class="form__button inputs-styles">
+              <button
+                type="submit"
+                class="form__button form__input_style_shape"
+              >
                 Reservar una mesa
               </button>
 
@@ -171,7 +181,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo del pie de página"
+          />
+          <div class="footer_circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logo de facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logo de facebook"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          &#169; 2024 JOSE ENRIQUE TECUAPETLA TREJO
+        </p>
+      </footer>
     </div>
   </body>
 </html>
