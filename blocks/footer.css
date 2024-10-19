@@ -3,6 +3,7 @@
   padding: 60px 80px;
   color: white;
   position: relative;
+  z-index: -1;
 }
 
 .footer__circle {
@@ -12,7 +13,8 @@
   background-color: #2f80ed;
   border-radius: 50%;
   top: -128px;
-  left: -40px;
+  left: -44px;
+  z-index: -1;
 }
 
 .footer__content {
@@ -54,6 +56,10 @@
   align-items: center;
   column-gap: 10px;
   justify-content: flex-end;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
