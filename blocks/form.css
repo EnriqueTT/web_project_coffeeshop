@@ -63,7 +63,7 @@
   opacity: 0.7;
 }
 
-.form_label_position_center {
+.form__label_position_center {
   margin: 0;
   display: flex;
   align-items: center;
